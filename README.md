@@ -27,7 +27,6 @@ def show_chord(name):
         <br>
         <a href='/'>Назад к списку</a>
     """
-
 if __name__ == '__main__':
     app.run(debug=True)
    
