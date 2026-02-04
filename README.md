@@ -16,7 +16,6 @@ def home():
     for name in chords.keys():
         html += f'<p><a href="/chord/{name}">{name}</a></p>'
     return html
-
 @app.route('/chord/<name>')
 def show_chord(name):
     info = chords.get(name, "Аккорд не найден")
