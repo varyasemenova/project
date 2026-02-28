@@ -121,6 +121,7 @@ def home():
 
 
 
+
 @app.route('/chord/<name>')
 def show_chord(name):
     info = chords.get(name, "Аккорд не найден")
@@ -138,6 +139,7 @@ def show_chord(name):
             font-size: 16px;
         ">← Назад к списку</a>
     """
+
 
 
 if __name__ == '__main__':
