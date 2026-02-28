@@ -120,6 +120,7 @@ def home():
     return html
 
 
+
 @app.route('/chord/<name>')
 def show_chord(name):
     info = chords.get(name, "Аккорд не найден")
